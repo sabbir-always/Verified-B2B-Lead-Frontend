@@ -1,0 +1,111 @@
+.footer_section {
+    background-color: var(--primary-color);
+}
+
+.footer_brand_name {
+    color: white;
+    font-family: var(--primary-fonts);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.footer_brand_color {
+    color: var(--primary-color);
+    padding: 2px 8px;
+    background-color: white;
+}
+
+.footer_title {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: var(--primary-fonts);
+    letter-spacing: 0.5px;
+    padding-bottom: 15px;
+}
+
+.footer_text {
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: var(--primary-fonts);
+    text-align: justify;
+    hyphens: auto;
+}
+
+.footer_social_media_box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.footer_social_media_icon {
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+        color: var(--primary-color);
+        background-color: white;
+    }
+}
+
+.footer_icon {
+    color: white;
+    padding: 0;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.footer_icon_text {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: var(--primary-fonts);
+}
+
+.footer_subscribe_btn {
+    width: 10%;
+    color: var(--primary-color);
+    font-size: 20px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_copyright,
+.terms_condition {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+    font-family: var(--primary-fonts);
+}
+
+@media screen and (max-width: 768px) {
+    .footer_text {
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    .footer_social_media_icon {
+        width: 40px;
+        height: 40px;
+    }
+}

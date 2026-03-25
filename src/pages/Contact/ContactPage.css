@@ -1,0 +1,84 @@
+.contact_section {
+    margin-bottom: 70px;
+}
+
+.contact_card {
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    }
+}
+
+.contact_card_body {
+    padding: 20px;
+}
+
+.contact_card_icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: var(--primary-color);
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.contact_card_title {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--primary-fonts);
+    margin-top: 30px;
+}
+
+.contact_card_text {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: var(--primary-fonts);
+    margin-bottom: 15px;
+}
+
+.contact_card_btn {
+    color: var(--primary-color);
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    font-family: var(--primary-fonts);
+    border: 1px solid gainsboro;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+        background-color: gainsboro;
+    }
+}
+
+
+/* ---- FAQ Section ---- */
+.accordion_button {
+    color: var(--primary-color);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-family: var(--primary-fonts);
+}
+
+.accordion_body_text {
+    font-size: 15px;
+    font-family: var(--primary-fonts);
+}
+
+.accordion_button:not(.collapsed) {
+    color: var(--primary-color);
+    background-color: rgb(240, 252, 240);
+}
+
+.accordion_button::after {
+    background-size: 12px;
+}

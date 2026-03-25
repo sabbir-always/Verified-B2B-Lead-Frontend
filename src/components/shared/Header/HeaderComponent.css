@@ -1,0 +1,102 @@
+.navbar_bg {
+    width: 100%;
+    padding: 15px 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.sticky_nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    animation: slideDown 0.5s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.navbar_brand_name {
+    color: gray;
+    font-family: var(--primary-fonts);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar_brand_color {
+    color: white;
+    padding: 2px 8px;
+    background-color: var(--primary-color);
+}
+
+.nav_link {
+    color: var(--headline-color);
+    font-family: var(--primary-fonts);
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    &:focus {
+        color: var(--primary-color);
+    }
+}
+
+.active {
+    color: var(--primary-color) !important;
+    font-family: var(--primary-fonts) !important;
+}
+
+.nav_btn {
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--primary-fonts);
+    padding: 7px 14px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all ease-in-out 0.3s;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+        background-color: gray;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    }
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border-radius: 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar_bg {
+        padding: 8px 0;
+    }
+
+    .navbar_brand_name {
+        font-size: 18px;
+    }
+
+    .navbar-toggler {
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
