@@ -3,8 +3,7 @@
 
 :root {
     --primary-color: #116D6E;
-    --secondary-color: orangered;
-    --headline-color: #19183B;
+    --secondary-color: gray;
     --primary-fonts: "Montserrat", sans-serif;
     --secondary-fonts: "Roboto", sans-serif;
 }

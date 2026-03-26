@@ -3,7 +3,7 @@
 }
 
 .contact_card {
-    border: 1px solid gainsboro;
+    border: 1px solid var(--secondary-color);
     border-radius: 15px;
     transition: all ease-in-out 0.3s;
 
@@ -24,7 +24,7 @@
     justify-content: center;
     font-size: 25px;
     color: var(--primary-color);
-    border: 1px solid gainsboro;
+    border: 1px solid var(--secondary-color);
     border-radius: 10px;
 }
 
@@ -52,11 +52,12 @@
     font-weight: 500;
     display: inline-block;
     font-family: var(--primary-fonts);
-    border: 1px solid gainsboro;
+    border: 1px solid var(--secondary-color);
     transition: all ease-in-out 0.3s;
 
     &:hover {
-        background-color: gainsboro;
+        color: white;
+        background-color: var(--secondary-color);
     }
 }
 

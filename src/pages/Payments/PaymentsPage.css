@@ -1,0 +1,125 @@
+.payments_card {
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    }
+}
+
+.payments_method_name {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--primary-fonts);
+    letter-spacing: 0.5px;
+}
+
+.payments_method_text {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--primary-fonts);
+    letter-spacing: 0.5px;
+}
+
+.payments_icons_1,
+.payments_icons_2,
+.payments_icons_3,
+.payments_icons_4,
+.payments_icons_5,
+.payments_icons_6,
+.payments_icons_7,
+.payments_icons_8 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+}
+
+.payments_icons_1 {
+    background-color: #3B5BDB;
+}
+
+.payments_icons_2 {
+    background-color: #22C55E;
+}
+
+.payments_icons_3 {
+    background-color: #E8630A;
+}
+
+.payments_icons_4 {
+    background-color: #0070BA;
+}
+
+.payments_icons_5 {
+    background-color: #1A1A2E;
+}
+
+.payments_icons_6 {
+    background-color: orangered;
+}
+
+.payments_method_website_1,
+.payments_method_website_2,
+.payments_method_website_3,
+.payments_method_website_4,
+.payments_method_website_5,
+.payments_method_website_6,
+.payments_method_website_7,
+.payments_method_website_8 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--primary-fonts);
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+        color: white;
+        background-color: var(--secondary-color);
+        border: 1px solid var(--secondary-color);
+    }
+}
+
+.payments_method_website_1 {
+    color: #3B5BDB;
+    border: 1px solid #3B5BDB;
+}
+
+.payments_method_website_2 {
+    color: #22C55E;
+    border: 1px solid #22C55E;
+}
+
+.payments_method_website_3 {
+    color: #E8630A;
+    border: 1px solid #E8630A;
+}
+
+.payments_method_website_4 {
+    color: #0070BA;
+    border: 1px solid #0070BA;
+}
+
+.payments_method_website_5 {
+    color: #1A1A2E;
+    border: 1px solid #1A1A2E;
+}
+
+.payments_method_website_6 {
+    color: orangered;
+    border: 1px solid orangered;
+}
