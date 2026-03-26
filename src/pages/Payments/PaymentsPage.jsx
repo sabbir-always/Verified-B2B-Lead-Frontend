@@ -13,7 +13,7 @@ const PaymentsPage = () => {
                     <div className="row justify-content-center">
                         <div className="col-12 col-sm-12 col-md-10 mb-3">
                             <div className="payments_card">
-                                <div className='d-flex align-items-center gap-3'>
+                                <div className='d-sm-flex align-items-center gap-3'>
                                     <div className='payments_icons_1'><SiWise /></div>
                                     <div className='payments_text_box'>
                                         <h5 className='payments_method_name'>Wise</h5>
@@ -25,7 +25,7 @@ const PaymentsPage = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-10 mb-3">
                             <div className="payments_card">
-                                <div className='d-flex align-items-center gap-3'>
+                                <div className='d-sm-flex align-items-center gap-3'>
                                     <div className='payments_icons_2'><MdOutlineHandshake /></div>
                                     <div className='payments_text_box'>
                                         <h5 className='payments_method_name'>Remitly</h5>
@@ -37,7 +37,7 @@ const PaymentsPage = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-10 mb-3">
                             <div className="payments_card">
-                                <div className='d-flex align-items-center gap-3'>
+                                <div className='d-sm-flex align-items-center gap-3'>
                                     <div className='payments_icons_3'><SiPayoneer /></div>
                                     <div className='payments_text_box'>
                                         <h5 className='payments_method_name'>Payoneer</h5>
@@ -49,7 +49,7 @@ const PaymentsPage = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-10 mb-3">
                             <div className="payments_card">
-                                <div className='d-flex align-items-center gap-3'>
+                                <div className='d-sm-flex align-items-center gap-3'>
                                     <div className='payments_icons_4'><SiZoom /></div>
                                     <div className='payments_text_box'>
                                         <h5 className='payments_method_name'>Xoom</h5>
@@ -61,7 +61,7 @@ const PaymentsPage = () => {
                         </div>
                         <div className="col-12 col-sm-12 col-md-10 mb-3">
                             <div className="payments_card">
-                                <div className='d-flex align-items-center gap-3'>
+                                <div className='d-sm-flex align-items-center gap-3'>
                                     <div className='payments_icons_5'><SiBinance /></div>
                                     <div className='payments_text_box'>
                                         <h5 className='payments_method_name'>Binance</h5>
@@ -71,9 +71,9 @@ const PaymentsPage = () => {
                                 <a href="https://www.binance.com" target='_new' className='payments_method_website_5'>Go Account <HiOutlineArrowTopRightOnSquare /></a>
                             </div>
                         </div>
-                        <div className="col-12 col-sm-12 col-md-10 mb-3">
+                        <div className="col-12 col-sm-12 col-md-10">
                             <div className="payments_card">
-                                <div className='d-flex align-items-center gap-3'>
+                                <div className='d-sm-flex align-items-center gap-3'>
                                     <div className='payments_icons_6'><PiBankThin /></div>
                                     <div className='payments_text_box'>
                                         <h5 className='payments_method_name'>Bank Transfer</h5>

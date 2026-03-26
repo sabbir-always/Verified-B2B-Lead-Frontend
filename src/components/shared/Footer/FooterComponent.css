@@ -104,6 +104,10 @@
         letter-spacing: 1px;
     }
 
+    .footer_social_media_box {
+        margin-top: 0px;
+    }
+
     .footer_social_media_icon {
         width: 40px;
         height: 40px;

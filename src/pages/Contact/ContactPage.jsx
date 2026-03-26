@@ -14,40 +14,40 @@ const ContactPage = () => {
                             <div className="col-12 col-sm-6 col-md-3 mb-3 mb-sm-0">
                                 <div className="contact_card">
                                     <div className="contact_card_body">
-                                        <span className='contact_card_icon'><FaRocketchat /></span>
+                                        <span className='contact_card_icon_1'><FaRocketchat /></span>
                                         <h5 className="contact_card_title">Chat to sales</h5>
                                         <p className="contact_card_text">Speak to our friendly teams.</p>
-                                        <a href="#" className="contact_card_btn">Chat to sales</a>
+                                        <a href="#" className="contact_card_btn_1">Chat to sales</a>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-6 col-md-3 mb-3 mb-sm-0">
                                 <div className="contact_card">
                                     <div className="contact_card_body">
-                                        <span className='contact_card_icon'><FaUserShield /></span>
+                                        <span className='contact_card_icon_2'><FaUserShield /></span>
                                         <h5 className="contact_card_title">Chat to support</h5>
                                         <p className="contact_card_text">We're hear to help.</p>
-                                        <a href="#" className="contact_card_btn">Chat to support</a>
+                                        <a href="#" className="contact_card_btn_2">Chat to support</a>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-6 col-md-3 mb-3 mb-sm-0">
                                 <div className="contact_card">
                                     <div className="contact_card_body">
-                                        <span className='contact_card_icon'><FaLocationCrosshairs /></span>
+                                        <span className='contact_card_icon_3'><FaLocationCrosshairs /></span>
                                         <h5 className="contact_card_title">Visit location</h5>
                                         <p className="contact_card_text">Visit our bangladesh location.</p>
-                                        <a href="#" className="contact_card_btn">Get directions</a>
+                                        <a href="#" className="contact_card_btn_3">Get directions</a>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-6 col-md-3">
                                 <div className="contact_card">
                                     <div className="contact_card_body">
-                                        <span className='contact_card_icon'><MdOutlinePhoneInTalk /></span>
+                                        <span className='contact_card_icon_4'><MdOutlinePhoneInTalk /></span>
                                         <h5 className="contact_card_title">Contact us</h5>
                                         <p className="contact_card_text">Sat-Fri from 24/7 available</p>
-                                        <a href="#" className="contact_card_btn">Call our team</a>
+                                        <a href="#" className="contact_card_btn_4">Call our team</a>
                                     </div>
                                 </div>
                             </div>

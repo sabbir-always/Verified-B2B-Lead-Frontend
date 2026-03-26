@@ -80,7 +80,7 @@
     font-weight: 400;
     font-family: var(--primary-fonts);
     letter-spacing: 0.5px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 5px;
     padding: 5px 10px;
@@ -122,4 +122,14 @@
 .payments_method_website_6 {
     color: orangered;
     border: 1px solid orangered;
+}
+
+@media screen and (max-width: 768px) {
+    .payments_card {
+        display: block;
+    }
+
+    .payments_text_box {
+        margin: 10px 0px;
+    }
 }
