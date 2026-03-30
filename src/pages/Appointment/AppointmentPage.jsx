@@ -78,7 +78,7 @@ const AppointmentPage = () => {
                                             </select>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-6 mb-3">
+                                    <div className="col-12 col-md-4 mb-3">
                                         <div className="form-group">
                                             <label htmlFor="select_metting" className='form-label'>Meeting With</label>
                                             <select class="form-select" id='select_metting' required>
@@ -89,13 +89,13 @@ const AppointmentPage = () => {
                                             </select>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-6 mb-3">
+                                    <div className="col-12 col-md-4 mb-3">
                                         <div className="form-group">
                                             <label htmlFor="first_name" className='form-label'>First Name</label>
                                             <input type="text" className="form-control" id='first_name' required />
                                         </div>
                                     </div>
-                                    <div className="col-12 col-md-6 mb-3">
+                                    <div className="col-12 col-md-4 mb-3">
                                         <div className="form-group">
                                             <label htmlFor="last_name" className='form-label'>Last Name</label>
                                             <input type="text" className="form-control" id='last_name' required />
@@ -113,7 +113,7 @@ const AppointmentPage = () => {
                                             <input type="number" className="form-control" id='phone' required />
                                         </div>
                                     </div>
-                                    <div className="col-6 mb-3">
+                                    <div className="col-12 mb-3">
                                         <div className="form-group">
                                             <label htmlFor="address" className='form-label'>Address</label>
                                             <input type="text" className="form-control" id='address' required />
