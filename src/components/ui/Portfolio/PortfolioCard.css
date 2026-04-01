@@ -1,0 +1,103 @@
+.portfolio_card_box {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.portfolio_card_img_box {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.portfolio_card_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s ease;
+}
+
+.portfolio_card_img_box::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.portfolio_card_link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.6);
+    opacity: 0;
+    z-index: 2;
+    color: white;
+    transition: 0.3s ease;
+    font-size: 12px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    font-family: var(--primary-fonts);
+    background-color: var(--primary-color);
+}
+
+.portfolio_card_img_box:hover::after {
+    opacity: 1;
+}
+
+.portfolio_card_img_box:hover .portfolio_card_link {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.portfolio_card_img_box:hover .portfolio_card_image {
+    transform: scale(1.05);
+}
+
+.portfolio_card_text_box {
+    padding: 10px 5px 0px 5px;
+}
+
+.portfolio_card_title {
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    letter-spacing: 0.5px;
+    color: var(--primary-color);
+    font-family: var(--primary-fonts);
+    text-decoration: none;
+}
+
+.portfolio_card_description {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--secondary-color);
+    font-family: var(--primary-fonts);
+    padding-bottom: 10px;
+}
+
+.portfolio_card_date {
+    font-size: 12px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: var(--headline-color);
+    font-family: var(--primary-fonts);
+}
+
+.portfolio_card_category {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--headline-color);
+    font-family: var(--primary-fonts);
+}
