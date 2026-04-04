@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.js"
 import { Route, Routes } from 'react-router-dom'
+import ServiceDetails from "./pages/ServiceDetails/ServiceDetails"
 import AppointmentPage from './pages/Appointment/AppointmentPage'
 import PortfolioPage from './pages/Portfolio/PortfolioPage'
 import PaymentsPage from "./pages/Payments/PaymentsPage"
@@ -18,6 +19,7 @@ const App = () => {
       <Route path="/appointment" element={<AppointmentPage />} />
       <Route path="/portfolio" element={<PortfolioPage />} />
       <Route path="/services" element={<ServicesPage />} />
+      <Route path="/services/details/:id" element={<ServiceDetails />} />
       <Route path="/teams" element={<TeamsPage />} />
       <Route path="/payments" element={<PaymentsPage />} />
     </Routes>

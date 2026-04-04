@@ -1,4 +1,4 @@
-import { GoArrowUpRight } from "react-icons/go";
+import { LuView } from "react-icons/lu";
 import { SlCalender } from "react-icons/sl";
 import images from '../../../assets/portfolio.png'
 import { Link } from "react-router-dom";
@@ -10,7 +10,7 @@ const PortfolioCard = () => {
             <div className="portfolio_card_box">
                 <div className="portfolio_card_img_box">
                     <img src={images} className='portfolio_card_image' alt="portfolio Card Image" />
-                    <a href='#' target="new" className="portfolio_card_link">View <GoArrowUpRight /></a>
+                    <a href='#' target="new" className="portfolio_card_link"><LuView /></a>
                 </div>
                 <div className="portfolio_card_text_box">
                     <Link to='#' className="portfolio_card_title">Real Estate Website</Link>

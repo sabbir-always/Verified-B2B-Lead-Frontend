@@ -1,26 +1,26 @@
-.portfolio_card_box {
+.services_card_box {
     border: 1px solid gainsboro;
     padding: 10px;
     border-radius: 5px;
     overflow: hidden;
 }
 
-.portfolio_card_img_box {
+.services_card_img_box {
     width: 100%;
     height: 200px;
-    position: relative;
     overflow: hidden;
     border-radius: 5px;
+    position: relative;
 }
 
-.portfolio_card_image {
+.services_card_image {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: 0.4s ease;
 }
 
-.portfolio_card_img_box::after {
+.services_card_img_box::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -32,7 +32,7 @@
     transition: 0.3s ease;
 }
 
-.portfolio_card_link {
+.services_card_link {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,31 +41,35 @@
     z-index: 2;
     color: white;
     transition: 0.3s ease;
-    font-size: 16px;
+    font-size: 12px;
     padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
     letter-spacing: 1px;
+    border-radius: 2px;
     font-family: var(--primary-fonts);
     background-color: var(--primary-color);
 }
 
-.portfolio_card_img_box:hover::after {
+.services_card_img_box:hover::after {
     opacity: 1;
 }
 
-.portfolio_card_img_box:hover .portfolio_card_link {
+.services_card_img_box:hover .services_card_link {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
 }
 
-.portfolio_card_img_box:hover .portfolio_card_image {
+.services_card_img_box:hover .services_card_image {
     transform: scale(1.05);
 }
 
-.portfolio_card_text_box {
+.services_card_text_box {
     padding: 10px 5px 0px 5px;
 }
 
-.portfolio_card_title {
+.services_card_title {
     font-size: 16px;
     font-weight: 300;
     display: block;
@@ -75,7 +79,7 @@
     text-decoration: none;
 }
 
-.portfolio_card_description {
+.services_card_description {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -84,17 +88,18 @@
     padding-bottom: 10px;
 }
 
-.portfolio_card_date {
+.services_card_price {
+    color: var(--primary-color);
     font-size: 12px;
-    gap: 5px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: var(--primary-fonts);
     display: flex;
     align-items: center;
-    letter-spacing: 0.5px;
-    color: var(--headline-color);
-    font-family: var(--primary-fonts);
+    gap: 5px;
 }
 
-.portfolio_card_category {
+.services_card_category {
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.5px;
