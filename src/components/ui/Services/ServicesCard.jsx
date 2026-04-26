@@ -6,7 +6,7 @@ import "./ServicesCard.css"
 
 const ServicesCard = () => {
     return (
-        <div className='col-md-3 mb-4'>
+        <div className='col-12 col-sm-6 col-md-4 col-lg-3 mb-4'>
             <div className="services_card_box">
                 <div className="services_card_img_box">
                     <img src={images} className='services_card_image' alt="services Card Image" />

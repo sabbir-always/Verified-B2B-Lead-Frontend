@@ -6,7 +6,7 @@ import "./PortfolioCard.css"
 
 const PortfolioCard = () => {
     return (
-        <div className='col-md-3 mb-4'>
+        <div className='col-12 col-md-6 col-lg-4 mb-4'>
             <div className="portfolio_card_box">
                 <div className="portfolio_card_img_box">
                     <img src={images} className='portfolio_card_image' alt="portfolio Card Image" />
