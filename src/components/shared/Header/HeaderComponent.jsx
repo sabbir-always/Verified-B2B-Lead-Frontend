@@ -42,7 +42,7 @@ const HeaderComponent = () => {
                         </li>
                     </ul>
                     <div className="d-flex align-items-center gap-2">
-                        <Link to='/appointment' className='nav_btn'>Appointment</Link>
+                        <Link to='/appointment' className='nav_btn'>Sign In</Link>
                     </div>
                 </div>
             </div>

@@ -62,7 +62,7 @@
     text-transform: uppercase;
     font-weight: 500;
     font-family: var(--primary-fonts);
-    padding: 7px 14px;
+    padding: 5px 14px;
     text-decoration: none;
     letter-spacing: 1px;
     transition: all ease-in-out 0.3s;

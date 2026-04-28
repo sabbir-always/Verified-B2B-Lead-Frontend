@@ -14,7 +14,7 @@ const PortfolioCard = () => {
                 </div>
                 <div className="portfolio_card_text_box">
                     <Link to='#' className="portfolio_card_title">Real Estate Website</Link>
-                    <p className="portfolio_card_description">Lorem ipsum dolor sit amet adipisicing elit. Impedit, ratione!</p>
+                    <p className="portfolio_card_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, excepturi. Maiores placeat deleniti ducimus soluta mollitia cumque fuga consectetur molestiae!</p>
                     <div className="d-flex align-items-center justify-content-between border-top pt-2">
                         <span className="portfolio_card_date"><SlCalender />Jan-10-2025</span>
                         <span className="portfolio_card_category">Lead Generation</span>

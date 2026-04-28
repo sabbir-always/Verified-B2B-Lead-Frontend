@@ -33,6 +33,8 @@
     font-family: var(--primary-fonts);
     text-align: justify;
     hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
 .footer_social_media_box {

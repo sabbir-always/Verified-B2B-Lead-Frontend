@@ -3,6 +3,26 @@
     padding: 10px;
     border-radius: 5px;
     overflow: hidden;
+    position: relative;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    }
+}
+
+.services_card_offer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: var(--primary-fonts);
+    background-color: var(--primary-color);
 }
 
 .services_card_img_box {
@@ -71,7 +91,7 @@
 
 .services_card_title {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     display: block;
     letter-spacing: 0.5px;
     color: var(--primary-color);
@@ -82,21 +102,23 @@
 .services_card_description {
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0.5px;
     color: var(--secondary-color);
     font-family: var(--primary-fonts);
     padding-bottom: 10px;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
-.services_card_price {
-    color: var(--primary-color);
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    font-family: var(--primary-fonts);
+.service_card_rating {
     display: flex;
     align-items: center;
     gap: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--headline-color);
+    font-family: var(--primary-fonts);
 }
 
 .services_card_category {
